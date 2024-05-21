@@ -14,3 +14,4 @@
 13. Text to Speech 
 14. Speech to Text 
 15. Image Capture
+16. Mini Project- Music Player App
