@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141218"
+    tools:context=".HomePage">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#AA89F3"
+        android:text="TuneTwirl"
+        android:textColor="#000000"
+        android:textSize="48sp" />
+
+    <ImageButton
+        android:id="@+id/pro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="357dp"
+        android:layout_y="13dp"
+        android:backgroundTint="#AA89F3"
+        android:src="@drawable/profile" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_x="55dp"
+        android:layout_y="140dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"
+        android:id="@+id/melody"
+        android:text="Motivational" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_x="55dp"
+        android:layout_y="240dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"
+        android:id="@+id/pop"
+        android:text="Pop/Kuthu" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_x="55dp"
+        android:layout_y="340dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"
+        android:id="@+id/bgm"
+        android:text="Vintage" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_x="55dp"
+        android:layout_y="440dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"
+        android:id="@+id/soup"
+        android:text="Soup" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_x="50dp"
+        android:layout_y="540dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"
+        android:id="@+id/love"
+        android:text="Love/Romance" />
+</AbsoluteLayout>

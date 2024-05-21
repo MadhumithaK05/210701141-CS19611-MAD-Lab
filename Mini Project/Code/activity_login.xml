@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141218"
+    tools:context=".login">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#AA89F3"
+        android:textColor="#000000"
+        android:textSize="48sp"
+        android:layout_x="0dp"
+        android:layout_y="0dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_x="270dp"
+        android:layout_y="400dp"
+        android:backgroundTint="#D0BCFF"
+        android:textColor="#432A7D"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="131dp"
+        android:layout_y="190dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#C4DBF7" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="131dp"
+        android:layout_y="304dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#C4DBF7" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="203dp"
+        android:text="Email"
+        android:textColor="#9DABF2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="30dp"
+        android:layout_y="313dp"
+        android:text="Password"
+        android:textColor="#9DABF2"
+        android:textSize="20sp" />
+
+</AbsoluteLayout>
